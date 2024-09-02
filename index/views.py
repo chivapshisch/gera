@@ -66,6 +66,7 @@ class DetailList(APIView):
 			}
 			]
 			serializer_2 = OcenkaShowSerializer(data = mnogo, many = True)
+			print('ok')
 			
 			if serializer_2.is_valid():
 				print('ok')
